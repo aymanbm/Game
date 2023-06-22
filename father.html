@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+
+    <div class="container-info">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-technology="go-pro">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/go-pro.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="go-pro">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/go-pro.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html-5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/html-5.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html-5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/html-5.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="java">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/java.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="java">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/java.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="lettre-c">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/lettre-c.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="lettre-c">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/lettre-c.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="perles">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/perles.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="perles">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/perles.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="php">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/php.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="php">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/php.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="python">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/python.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="python">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/python.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="JavaScript">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/script-java.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="JavaScript">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/script-java.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="sql">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/serveur-sql.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="sql">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/serveur-sql.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/symbole-de-format-de-fichier-css.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="icones/symbole-de-format-de-fichier-css.png" alt="">
+            </div>
+        </div>
+        
+      
+    </div>
+
+    <audio src="sounds/Success.mp3" id="success" preload="auto"></audio>
+    <audio src="sounds/Fail.mp3" id="Fail" preload="auto"></audio>
+    <audio src="sounds/Finish-TheGame.mp3" id="Finish-TheGame" preload="auto"></audio>
+    <audio src="sounds/All-Game.mp3" id="All-Game" preload="auto"></audio>
+    <audio src="sounds/lose-theGame.wav" id="lose-theGame" preload="auto"></audio>
+
+    <table id="table" border="2">
+        <tr>
+            <th>Name</th>
+            <th>Score(tries)</th>
+        </tr>
+        
+    </table>
+
+    <script src="js.js"></script>
+</body>
+</html>
